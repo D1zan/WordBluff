@@ -20,9 +20,10 @@ let numPlayers = document.getElementById("playerNumber").value;
 console.log("number of players:", numPlayers);
 
 const container = document.getElementById("cardsContainer");
-
+//for loop for making number of cards == how many players
+//then diff loop f
 for (let i = 1; i <= numPlayers; i++) {
-   ;
+   let imposter = 
 
     container.appendChild(card);
 }
