@@ -8,27 +8,14 @@ body {
 h3 {
     font-size: 30px;
 }
+
 .buttons {
   display:flex;
   flex-direction: row;
   justify-content: space-between;
   align-items:baseline;
 }
-.yesButton {
-  background-color: white;
-  border-color: black;
-  border-width: 16px;
-}
-.noButton {
-  background-color: white;
 
-  border-color: black;
-}
-.butteon {
-  display:flex;
-  justify-content:left;
-  padding: 8px;
-}
 .container {
     width: 400px;
     height: 400px;
@@ -51,6 +38,8 @@ h3 {
   border: 1px solid #f1f1f1;
   perspective: 1000px; 
 }
+/*Perspective gives it a 3D effect so it flips nice
+How far bro is from the user, small num means more 3D looking*/
 
 /* Front and back side */
 .flip-card-inner {
@@ -60,6 +49,7 @@ h3 {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  /*transform-style is how nested elements are rendenred in 3D*/
 }
 
 /* Flip when you move the mouse over the flip box container */
@@ -73,8 +63,8 @@ h3 {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Specific browsers */
   backface-visibility: hidden;
+  /*this helps me not see the back of the card while the front is showing*/
 }
 
 /* Style the back side */

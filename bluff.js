@@ -15,6 +15,18 @@ const pickedWord = pickedCategorie[Math.floor(Math.random() * pickedCategorie.le
 console.log(pickedWord);
 
 //Picking player from the range given by the user 
+
 let numPlayers = document.getElementById("playerNumber").value;
-console.log("number of players:", numPlayers)
+console.log("number of players:", numPlayers);
+
+const container = document.getElementById("cardsContainer");
+
+for (let i = 1; i <= numPlayers; i++) {
+   ;
+
+    container.appendChild(card);
+}
+
+
+//Getting data from html to show the imposter a hint
 
