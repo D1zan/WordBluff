@@ -8,6 +8,27 @@ body {
 h3 {
     font-size: 30px;
 }
+.buttons {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:baseline;
+}
+.yesButton {
+  background-color: white;
+  border-color: black;
+  border-width: 16px;
+}
+.noButton {
+  background-color: white;
+
+  border-color: black;
+}
+.butteon {
+  display:flex;
+  justify-content:left;
+  padding: 8px;
+}
 .container {
     width: 400px;
     height: 400px;
