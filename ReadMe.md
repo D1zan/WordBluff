@@ -15,7 +15,7 @@ A card game, simple but fun. Enter the amount of players in the texbox, and star
 * CSS
 
 ### Images 
-<img src="C:\Users\Sarah\OneDrive\Pictures\Screenshots\Screenshot 2026-01-20 094601.png" >
+<img src="C:\Users\Sarah\Documents\WordBluff\Screenshot 2026-01-20 094601.png" >
 
 ### Resources:
 
